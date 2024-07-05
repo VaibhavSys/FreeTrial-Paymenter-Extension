@@ -3,6 +3,7 @@
 namespace App\Extensions\Gateways\FreeTrial;
 
 use App\Classes\Extensions\Gateway;
+use App\Models\Invoice;
 
 class FreeTrial extends Gateway
 {
@@ -49,6 +50,12 @@ class FreeTrial extends Gateway
     */
     public function pay($total, $products, $invoiceId)
     {
+        $invoice = Invoice::find($invoiceId);
+
+        if ($invoice->credits) {
+            return route('clients.invoice.index');
+        }
+
         return route('FreeTrial.activate', ['invoice_id' => $invoiceId]);
     }
 }
