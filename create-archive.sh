@@ -26,7 +26,9 @@ fi
 mkdir FreeTrial
 cp FreeTrial.php FreeTrial
 cp README.md FreeTrial
-cp LICENCE FreeTrial
+cp LICENSE FreeTrial
+cp logo.png FreeTrial
+cp cover.png FreeTrial
 zip -r FreeTrial.zip FreeTrial
 rm -r FreeTrial
 echo "Archive created successfully."
