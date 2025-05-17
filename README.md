@@ -3,8 +3,9 @@
 A simple extension for [Paymenter](https://paymenter.org) that allows automatic invoice approval for orders under a configurable maximum value. Ideal for offering **free trials** or promotional services with zero friction.
 
 ## Supported Versions
+> The last version which supported Paymenter v0.9.5 is [v1.0.0](https://github.com/VaibhavSys/FreeTrial-Paymenter-Extension/releases/tag/v1.0.0)
 - **Supported Version:** Paymenter v1.0.4
-- **Extension Version:** v1.0.0
+- **Extension Version:** v2.0.0
 
 ## Features
 - Automatically approves invoices if the total is under a configured maximum value.
