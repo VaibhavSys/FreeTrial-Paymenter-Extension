@@ -36,10 +36,8 @@ This gives you full flexibility to:
      ```
      /var/www/paymenter/extensions/Gateways
      ```
-
-2. **Enable the extension** from the Paymenter admin panel.
-
-3. **Configure the Max Order Value** in the admin panel (e.g., `0.5` to allow automatic approval for invoices ≤ $0.5).
+1. **Enable the extension** from the Paymenter admin panel.
+1. **Configure the Max Order Value** in the admin panel (e.g., `0.5` to allow automatic approval for invoices ≤ $0.5).
 
 That’s it — you’re ready to offer free trials!
 
