@@ -45,7 +45,7 @@ That’s it — you’re ready to offer free trials!
 
 ## Configuration
 
-- **Max Order Value (number):** The maximum invoice amount (in your system currency) that can be auto-approved. Any invoice above this value will be rejected.
+- **Max Order Value (number):** The maximum invoice amount (in your invoice currency) that can be auto-approved. Any invoice above this value will be rejected.
 
 > 💡 If you want to use this with a one-time promotional coupon, ensure the final payable invoice amount (after discount) is within the Max Order Value.
 
