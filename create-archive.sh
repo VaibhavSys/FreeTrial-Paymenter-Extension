@@ -26,6 +26,7 @@ fi
 mkdir FreeTrial
 cp FreeTrial.php FreeTrial
 cp README.md FreeTrial
+cp Settings.png FreeTrial
 cp LICENSE FreeTrial
 cp logo.png FreeTrial
 cp cover.png FreeTrial
