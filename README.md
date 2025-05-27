@@ -20,7 +20,7 @@ Once enabled, if a user attempts to pay an invoice and the total amount is **les
 
 This gives you full flexibility to:
 - Create promotional plans priced under the trial limit.
-- Use one-time coupons to offer free trials.
+- Use one-time coupons and products to offer free trials.
 - Test services internally without actual transactions.
 
 ## Getting Started
